@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dx+Imjdy/RwPhtF/eOUfFm9uUsP8HMLAK25akaDdOLlQO9EBEbCOq2HPFfFRfJtEs30hSWJM3sRL4NYqjYD6wQ==",
+  "dgSpecHash": "Sc5Z5QRmKE+dcssO+cOGBsp7lFXxE/u+T6Uln8UQ1fBYrqifbUkQPKh09btXNE8l4fGAqAcCKr5td0gqNUWIew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Job_Preparation\\Alpha_Soft\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Interview\\BSS\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

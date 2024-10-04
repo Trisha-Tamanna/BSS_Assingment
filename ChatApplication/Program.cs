@@ -1,4 +1,5 @@
 using ChatApplication.Data;
+using ChatApplication.Hub;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.MapHub<ChatHub>("/chathub");
 
 app.MapControllers();
 

@@ -5842,11 +5842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\Job_Preparation\\Alpha_Soft\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\Interview\\BSS\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
       "projectName": "ChatApplication",
-      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Job_Preparation\\Alpha_Soft\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
+      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Interview\\BSS\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Job_Preparation\\Alpha_Soft\\ChatApplication\\ChatApplication\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Interview\\BSS\\ChatApplication\\ChatApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
