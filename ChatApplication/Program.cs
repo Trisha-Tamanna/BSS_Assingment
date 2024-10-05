@@ -23,6 +23,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 app.MapHub<ChatHub>("/chathub");
+app.UseDeveloperExceptionPage();
+
 
 app.MapControllers();
 

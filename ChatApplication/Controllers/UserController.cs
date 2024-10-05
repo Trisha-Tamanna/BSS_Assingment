@@ -15,12 +15,27 @@ namespace ChatApplication.Controllers
         {
             _context = context;
         }
+
         [HttpPost("register")]
         public async Task<IActionResult> Register(User user)
         {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-            return Ok(user);
+            //_context.Users.Add(user);
+            //await _context.SaveChangesAsync();
+            //return Ok(user);
+            try
+            {
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+                return Ok(user);
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, new { error = "Database update error", details = ex.InnerException?.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = "An unexpected error occurred", details = ex.Message });
+            }
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login(string email)
